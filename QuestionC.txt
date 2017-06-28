@@ -1,0 +1,9 @@
+question C
+
+/* use HashMap<String, Set<String>>, one key and values as collection Set  so we can store unique multiple values; data structure to save URL
+Trim the URL www.youtube.com/sssd/sddd into domain and URI (we don't need to split protocol,domain, port, uri differently.
+As for example key will be www.youtube.com and values will be all URI in sets . 
+So Through key and from value(set.contains(?) ) we can search for visited or not visited and save the URI of the URL.
+So domain will be saved once here and all the URI will be connected. So space minimization.
+But if we skip visited url's then there might be chance over time the contents might get changed. So therefor we can use priority flag over visited sites.
+-- for the time shortage couldn't do the coding */
